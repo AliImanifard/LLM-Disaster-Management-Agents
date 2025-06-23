@@ -32,6 +32,23 @@ A multi-agent disaster management system leveraging large language models (LLMs)
    export LLAMA_CONTEXT_USE_VULKAN=1
    ```
 
+## Data Access
+
+Due to licensing restrictions, the full datasets used in this project are not included in this repository.
+
+To reproduce the results:
+
+1. **Tweets dataset**  
+   - Original source: [Disaster Tweets by Viktor S](https://www.kaggle.com/datasets/vstepanenko/disaster-tweets)  
+   - Download and save as `data/tweets.csv`.
+
+2. **US Disaster Declarations dataset**  
+   - Source: FEMA Open Data ([US Natural Disaster Declarations](https://www.kaggle.com/datasets/headsortails/us-natural-disaster-declarations))  
+   - Download and save as `data/us_disaster_declarations.csv`.
+
+> Alternatively, you may replace these datasets with any similar CSV files containing textual and tabular data for testing.
+
+
 ## Usage
 
 ```bash
